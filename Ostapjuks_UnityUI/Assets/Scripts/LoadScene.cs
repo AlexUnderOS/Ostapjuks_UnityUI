@@ -18,8 +18,10 @@ public class LoadScene : MonoBehaviour
         Load(sceneName);
     }
 
-    public void Exit()
+    public async void Exit(int value)
     {
+        await Task.Delay(value);
         Application.Quit();
+        Debug.Log("EXIT");
     }
 }

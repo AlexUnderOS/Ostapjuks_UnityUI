@@ -8,7 +8,6 @@ public class Characters : MonoBehaviour
 {
     public TMP_InputField nameInputField;
     public TMP_InputField birthYearInputField;
-    public TMP_Dropdown chooseCharacter;
     public TMP_Dropdown skinDropDown;
     public Sprite[] skins;
     public Image displayImage;
@@ -21,10 +20,10 @@ public class Characters : MonoBehaviour
 
     private void Start()
     {
-        if (nameInputField == null || birthYearInputField == null || chooseCharacter == null ||
+        if (nameInputField == null || birthYearInputField == null ||
             skinDropDown == null || skins == null || displayImage == null || newCharacterBtn == null)
         {
-            Debug.LogError("One or more references are not assigned in the inspector");
+            Debug.LogError("One or more references not assigned!");
             return;
         }
 

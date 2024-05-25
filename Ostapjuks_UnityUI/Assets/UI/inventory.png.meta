@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d32c8cfcad5487c47aef88c7d5200799
+guid: 67cb6cc1ed7311c408868ff6ea276ba0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: body-outfit_0
+      name: inventory_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 12
-        width: 16
-        height: 11
+        y: 13
+        width: 175
+        height: 185
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d82850218ee8da438063781045bd716
-      internalID: -532601682
+      spriteID: 8e7dd9a53780ae6458807d9bd30233d4
+      internalID: -1407706097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: body-outfit_1
+      name: inventory_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 12
-        width: 16
-        height: 11
+        x: 180
+        y: 9
+        width: 364
+        height: 189
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,134 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 786cc2a3641ebc94caf5e8b5a1e79532
-      internalID: 778031819
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: body-outfit_2
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 12
-        width: 16
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 581bfe7e8398c6947b4d9a198b3b3570
-      internalID: -78554286
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: body-outfit_3
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 12
-        width: 16
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fced4d9c68b52be48b54a6ff91da8360
-      internalID: 384505916
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: body-outfit_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6af8f26a219e43d4998037b0e0c7345b
-      internalID: 2122197855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: body-outfit_5
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 0
-        width: 16
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d59fdbbd3396bac46a0f258dcafdfdbd
-      internalID: -122037896
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: body-outfit_6
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 0
-        width: 16
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5845869f329a3fc409ceb6b5a6f02461
-      internalID: -304555768
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: body-outfit_7
-      rect:
-        serializedVersion: 2
-        x: 52
-        y: 0
-        width: 16
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 266980564f352fa4bb9a3ad1c8dc9260
-      internalID: 1448164261
+      spriteID: b113955c6a253b0448d5b5dd45b0c8ac
+      internalID: -955120007
       vertices: []
       indices: 
       edges: []
@@ -301,14 +175,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      body-outfit_0: -532601682
-      body-outfit_1: 778031819
-      body-outfit_2: -78554286
-      body-outfit_3: 384505916
-      body-outfit_4: 2122197855
-      body-outfit_5: -122037896
-      body-outfit_6: -304555768
-      body-outfit_7: 1448164261
+      inventory_0: -1407706097
+      inventory_1: -955120007
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
