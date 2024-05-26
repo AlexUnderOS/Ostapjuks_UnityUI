@@ -1,14 +1,11 @@
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
-using TMPro;
-using System;
 
 public class DisplayManager : MonoBehaviour
 {
     public TMP_Text displayText;
     public Image userImage;
-
 
     void Start()
     {
@@ -17,7 +14,7 @@ public class DisplayManager : MonoBehaviour
         string spriteName = PlayerPrefs.GetString("PlayerImageName");
 
 
-        displayText.text = "Pick a style for "+name+", he turned "+age+" today, great guy!";
+        displayText.text = "Pick a style for " + name + ", he turned " + age + " today, great guy!";
 
         Sprite sprite = Resources.Load<Sprite>(spriteName);
         if (sprite != null)

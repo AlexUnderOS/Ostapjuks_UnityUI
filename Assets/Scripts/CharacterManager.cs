@@ -4,24 +4,23 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Characters : MonoBehaviour
+public class CharacterManager : MonoBehaviour
 {
     public TMP_InputField nameInputField;
     public TMP_InputField birthYearInputField;
     public TMP_Dropdown skinDropDown;
     public Sprite[] skins;
     public Image displayImage;
-    public Button newCharacterBtn;
+    public Button submitButton;
 
     private int currentYear = 2024;
     private string characterName;
     private string characterAge;
-    private static Characters instance;
 
     private void Start()
     {
-        if (nameInputField == null || birthYearInputField == null ||
-            skinDropDown == null || skins == null || displayImage == null || newCharacterBtn == null)
+        if (nameInputField == null || birthYearInputField == null || skinDropDown == null ||
+            skins == null || displayImage == null || submitButton == null)
         {
             Debug.LogError("One or more references not assigned!");
             return;
@@ -36,24 +35,11 @@ public class Characters : MonoBehaviour
         UpdateButtonState();
     }
 
-    private void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else if (instance != this)
-        {
-            Destroy(gameObject);
-        }
-    }
-
     private void PopulateDropdownWithSkins()
     {
         if (skins == null || skins.Length == 0)
         {
-            Debug.LogError("Skins array is not assigned or empty");
+            Debug.LogError("Skins array is null or empty");
             return;
         }
 
@@ -107,16 +93,22 @@ public class Characters : MonoBehaviour
     {
         bool isNameFilled = !string.IsNullOrEmpty(nameInputField.text);
         bool isBirthYearFilled = !string.IsNullOrEmpty(birthYearInputField.text);
-        newCharacterBtn.interactable = isNameFilled && isBirthYearFilled;
+        submitButton.interactable = isNameFilled && isBirthYearFilled;
     }
 
-    public void SaveNewCharacter()
+    public void OnSubmitButton()
     {
         try
         {
             characterName = nameInputField.text;
-            ConvertFirstBirthYear();
-            Debug.Log(nameInputField.text + " " + birthYearInputField.text);
+            ConvertBirthYearToAge();
+            string spriteName = displayImage.sprite.name;
+
+            PlayerPrefs.SetString("PlayerName", characterName);
+            PlayerPrefs.SetString("PlayerAge", characterAge);
+            PlayerPrefs.SetString("PlayerImageName", spriteName);
+
+            Debug.Log($"Saved: Name={characterName}, Age={characterAge}, Img={spriteName}");
         }
         catch (Exception ex)
         {
@@ -124,7 +116,7 @@ public class Characters : MonoBehaviour
         }
     }
 
-    private void ConvertFirstBirthYear()
+    private void ConvertBirthYearToAge()
     {
         int birthYear = Convert.ToInt32(birthYearInputField.text);
         characterAge = (currentYear - birthYear).ToString();
