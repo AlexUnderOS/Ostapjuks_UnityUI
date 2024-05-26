@@ -84,14 +84,6 @@ public class SizeChanger : MonoBehaviour
                 rt.sizeDelta = new Vector2(rt.sizeDelta.x, scaleFactor *
                     outfitObjContainer.GetComponent<RectTransform>().sizeDelta.y);
             }
-            else
-            {
-                Debug.LogError("No object selected!");
-            }
-        }
-        else
-        {
-            Debug.LogError("DragAndDrop script not found!");
         }
     }
 
@@ -110,14 +102,6 @@ public class SizeChanger : MonoBehaviour
                 rt.sizeDelta = new Vector2(scaleFactor *
                 outfitObjContainer.GetComponent<RectTransform>().sizeDelta.x, rt.sizeDelta.y);
             }
-            else
-            {
-                Debug.LogError("No object selected!");
-            }
-        }
-        else
-        {
-            Debug.LogError("DragAndDrop script not found!");
         }
     }
 }
