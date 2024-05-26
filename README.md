@@ -1,3 +1,5 @@
+> [!WARNING]
+>  Due to problems with the transfer of game packages there were some problems on the main branch, for this reason now works not the main branch and the master branch!!!
 # Come up with a style for your character!
 
 ## Goals
