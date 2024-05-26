@@ -9,6 +9,8 @@ public class ScrollViewDescription : MonoBehaviour
 {
     public TMP_Text scrollText;
     public TMP_Dropdown dropdown;
+    public AudioSource source;
+    public AudioClip[] clips;
 
     [TextArea]
     public string[] discriptions;
@@ -20,5 +22,8 @@ public class ScrollViewDescription : MonoBehaviour
     private void OnDropdownValueChanged(int index)
     {
         scrollText.text = discriptions[index];
+        source.clip = clips[index];
+        source.Play();
+
     }
 }
