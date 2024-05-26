@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ostap\\Documents\\~Programming\\Unity\\Ostapjuks_UnityUI\\Ostapjuks_UnityUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5670B4A-A1E9-5773-881E-5DDB202754AF}|Assembly-CSharp.csproj|c:\\users\\ostap\\documents\\~programming\\unity\\ostapjuks_unityui\\ostapjuks_unityui\\assets\\scripts\\draganddropcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5670B4A-A1E9-5773-881E-5DDB202754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\draganddropcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5670B4A-A1E9-5773-881E-5DDB202754AF}|Assembly-CSharp.csproj|c:\\users\\ostap\\documents\\~programming\\unity\\ostapjuks_unityui\\ostapjuks_unityui\\assets\\scripts\\draganddrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5670B4A-A1E9-5773-881E-5DDB202754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\draganddrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5670B4A-A1E9-5773-881E-5DDB202754AF}|Assembly-CSharp.csproj|c:\\users\\ostap\\documents\\~programming\\unity\\ostapjuks_unityui\\ostapjuks_unityui\\assets\\scripts\\sizechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5670B4A-A1E9-5773-881E-5DDB202754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sizechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DragAndDropContainer.cs",
+              "DocumentMoniker": "C:\\Users\\ostap\\Documents\\~Programming\\Unity\\Ostapjuks_UnityUI\\Ostapjuks_UnityUI\\Assets\\Scripts\\DragAndDropContainer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DragAndDropContainer.cs",
+              "ToolTip": "C:\\Users\\ostap\\Documents\\~Programming\\Unity\\Ostapjuks_UnityUI\\Ostapjuks_UnityUI\\Assets\\Scripts\\DragAndDropContainer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DragAndDropContainer.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAswCMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T16:20:02.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DragAndDrop.cs",
+              "DocumentMoniker": "C:\\Users\\ostap\\Documents\\~Programming\\Unity\\Ostapjuks_UnityUI\\Ostapjuks_UnityUI\\Assets\\Scripts\\DragAndDrop.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DragAndDrop.cs",
+              "ToolTip": "C:\\Users\\ostap\\Documents\\~Programming\\Unity\\Ostapjuks_UnityUI\\Ostapjuks_UnityUI\\Assets\\Scripts\\DragAndDrop.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DragAndDrop.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T17:07:24.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SizeChanger.cs",
+              "DocumentMoniker": "C:\\Users\\ostap\\Documents\\~Programming\\Unity\\Ostapjuks_UnityUI\\Ostapjuks_UnityUI\\Assets\\Scripts\\SizeChanger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SizeChanger.cs",
+              "ToolTip": "C:\\Users\\ostap\\Documents\\~Programming\\Unity\\Ostapjuks_UnityUI\\Ostapjuks_UnityUI\\Assets\\Scripts\\SizeChanger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SizeChanger.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAowGEAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T16:23:17.002Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
