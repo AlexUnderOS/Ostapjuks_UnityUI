@@ -427,7 +427,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1680317573}
         m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
-        m_MethodName: Load
+        m_MethodName: LoadSceneWithDelay
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1354,7 +1354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cafd74d89b1f1a948ac1b690ff5dbae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayMS: 0
+  delayMS: 2000
 --- !u!4 &1680317574
 Transform:
   m_ObjectHideFlags: 0
