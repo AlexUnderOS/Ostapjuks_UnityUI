@@ -43,7 +43,7 @@ Fill in the input fields, for example:
 
 ---
 
-1. Select the clothes you want to resize
+1. By selecting clothes from the list you can change its size
 2. Change the size with the sliders
 
 ![start_btn](readme_/CharacterCustomize_2.png)
@@ -55,6 +55,13 @@ Fill in the input fields, for example:
 ![start_btn](readme_/CharacterCustomize_3.png)
 
 ---
+
+1. Clear button, removes all taken items from the inventory
+
+![start_btn](readme_/CharacterCustom_clear.png)
+
+---
+
 
 ## Authors
 

@@ -73,10 +73,25 @@ public class SizeChanger : MonoBehaviour
     {
         float scaleFactor = value / heightSliderOutfit.maxValue;
 
-        foreach (RectTransform rt in outfitRectTransforms)
+        DragAndDrop dragAndDrop = FindObjectOfType<DragAndDrop>();
+
+        if (dragAndDrop != null)
         {
-            rt.sizeDelta = new Vector2(rt.sizeDelta.x, scaleFactor * 
-                outfitObjContainer.GetComponent<RectTransform>().sizeDelta.y);
+            GameObject selectedObj = dragAndDrop.GetSelectedObj();
+            if (selectedObj != null)
+            {
+                RectTransform rt = selectedObj.GetComponent<RectTransform>();
+                rt.sizeDelta = new Vector2(rt.sizeDelta.x, scaleFactor *
+                    outfitObjContainer.GetComponent<RectTransform>().sizeDelta.y);
+            }
+            else
+            {
+                Debug.LogError("No object selected!");
+            }
+        }
+        else
+        {
+            Debug.LogError("DragAndDrop script not found!");
         }
     }
 
@@ -84,10 +99,25 @@ public class SizeChanger : MonoBehaviour
     {
         float scaleFactor = value / widthSliderOutfit.maxValue;
 
-        foreach (RectTransform rt in outfitRectTransforms)
+        DragAndDrop dragAndDrop = FindObjectOfType<DragAndDrop>();
+
+        if (dragAndDrop != null)
         {
-            rt.sizeDelta = new Vector2(scaleFactor *
+            GameObject selectedObj = dragAndDrop.GetSelectedObj();
+            if (selectedObj != null)
+            {
+                RectTransform rt = selectedObj.GetComponent<RectTransform>();
+                rt.sizeDelta = new Vector2(scaleFactor *
                 outfitObjContainer.GetComponent<RectTransform>().sizeDelta.x, rt.sizeDelta.y);
+            }
+            else
+            {
+                Debug.LogError("No object selected!");
+            }
+        }
+        else
+        {
+            Debug.LogError("DragAndDrop script not found!");
         }
     }
 }
