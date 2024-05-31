@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638527471591879204
-    m_Hash: 1782957854
+      ticks: 638527479544644315
+    m_Hash: 793271482
   m_LockFileStatus:
     m_FilePath: C:/Users/ostap/Documents/~Programming/Unity/Ostapjuks_UnityUI/Ostapjuks_UnityUI/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638527471591940674
-    m_Hash: 1593437093
+      ticks: 638527479544644315
+    m_Hash: 3654795704
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
