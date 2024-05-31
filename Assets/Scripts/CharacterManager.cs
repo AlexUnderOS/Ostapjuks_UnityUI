@@ -119,7 +119,13 @@ public class CharacterManager : MonoBehaviour
     private void ConvertBirthYearToAge()
     {
         int birthYear = Convert.ToInt32(birthYearInputField.text);
-        characterAge = (currentYear - birthYear).ToString();
+        int age = currentYear - birthYear;
+        if (age < 0)
+        {
+            characterAge = "0";
+            return;
+        }
+        characterAge = (age).ToString();
     }
 
     public string GetCharacterName()
