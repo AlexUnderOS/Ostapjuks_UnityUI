@@ -2200,7 +2200,7 @@ MonoBehaviour:
   source: {fileID: 1436075726}
   clips:
   - {fileID: 8300000, guid: 92217602806c3ed43a0df83cd952d54d, type: 3}
-  - {fileID: 8300000, guid: 949886d67296f674db7c9468bed176be, type: 3}
+  - {fileID: 8300000, guid: 0c6a97fdb59bab84393c6f6e07e95fe1, type: 3}
   discriptions:
   - A stranger just passing by.
   - Agent 47 is emotionless and closed off to the suffering of those he kills. He
